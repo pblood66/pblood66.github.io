@@ -66,4 +66,4 @@ I would also like to move away from using ppm files. Initially, I chose to use a
 I've learned so much from this project, however there is still a lot of improvements that I would like to make that will not only expand the functionality of this project but also my own toolset as a programmer. This project has been a lot of fun but for now I will be moving on to other projects. I do plan on returning this engine so stay tuned for future updates!
 
 [^1]: [ASCI WHITE](https://en.wikipedia.org/wiki/ASCI_White) wikipedia.org. Retrieved December 26, 2025
-[^2]: https://www.techpowerup.com/gpu-specs/geforce-rtx-3090.c3622 TechPowerUp. Retrieved December 26, 2025
+[^2]: [Geforce RTX 3090](https://www.techpowerup.com/gpu-specs/geforce-rtx-3090.c3622) TechPowerUp. Retrieved December 26, 2025
