@@ -19,6 +19,8 @@ Over the summer, I took on a personal project that really pushed the boundaries 
 
 At first glance, ray tracing sounds intimidating. It’s a core graphics technique used in everything from Pixar movies to real-time rendering engines, and it involves a fair amount of math and computer science concepts like vectors, recursion, and material shading. But tackling it as a project gave me a chance to level up in so many areas, not just graphics, but software structure and development habits too. 
 
+While researching for this project, I quickly learned about various rendering techniques. The one I was most interested in was path tracing. Path tracing, the foundations for modern ray tracing was first conceived in the late 80's. At the time, this algorithm was way too computationally heavy for rendering. As time progressed and computers became faster it has since regained popularity in its usage. In 2000, the ASCI White supercomputer had a theoretical processing speed of 12.3 trillion computations a second[^1]. Today, modern GPU's are capable of 35 trillion computations a second[^2].
+
 ## What the Engine Does
 
 The renderer works by casting rays from a virtual camera through each pixel of the image plane. Each ray is tested for intersections with scene objects (currently spheres), and the closest hit determines how the pixel color is computed. I implemented ray–object intersection logic using vector equations and used this as the foundation for shading and material behavior.
@@ -62,3 +64,6 @@ Currently, my program is pretty slow especially if I were to render images in HD
 I would also like to move away from using ppm files. Initially, I chose to use a ppm file as my output, it is rather clunky and there are just better options. Ideally, I want to move away from image formats as I would like to render scenes closer to real time. This would mean building a better UI and minimizing rendering runtimes as much as possible. 
 
 I've learned so much from this project, however there is still a lot of improvements that I would like to make that will not only expand the functionality of this project but also my own toolset as a programmer. This project has been a lot of fun but for now I will be moving on to other projects. I do plan on returning this engine so stay tuned for future updates!
+
+[^1]: [ASCI WHITE](https://en.wikipedia.org/wiki/ASCI_White) wikipedia.org. Retrieved December 26, 2025
+[^2]: https://www.techpowerup.com/gpu-specs/geforce-rtx-3090.c3622 TechPowerUp. Retrieved December 26, 2025
